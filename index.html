@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo App</title>
+  <!--bootstrap-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--font awesome-->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!--main style-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="todo-app">
+        <!--main-title-->
+      <h2 class="main-title d-flex align-items-center">
+        To-Do App
+        <img src="imgs/icon (1).png" alt="">
+      </h2>
+      <!--input-group-->
+      <div class="input-group mb-3 rounded-pill d-flex">
+        <input type="text" id="input" placeholder="Add your text" >
+        <button class="btn rounded-pill" type="button" id="btn" onclick="addTask ()">Add</button>
+      </div>
+      <!--list-container-->
+      <ul id="list-container">
+        <!--<li class="checked">task 1</li>
+        <li>task 2</li>
+        <li>task 3</li>-->
+      </ul>
+    </div>
+  </div>
+  <!--font awesome-->
+  <script src="js/all.min.js"></script>
+  <!--bootstrap-->
+  <script src="js/bootstrap.bundle.js"></script>
+  <!--main js -->
+  <script src="js/index.js"></script>
+</body>
+
+</html>
